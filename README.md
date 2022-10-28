@@ -50,7 +50,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
--Wes Bos, w3schools and Stack Overflowe
+-Wes Bos, w3schools and Stack Overflow
 
 ## 📝 License
 
