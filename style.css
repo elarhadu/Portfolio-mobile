@@ -47,10 +47,10 @@ h2 {
   height: 16px;
   left: 20px;
   top: 1px;
-  font-family: Poppins;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 80%;
   color: #fff;
 }
@@ -71,7 +71,7 @@ h2 {
   font-size: 12.5px;
   left: 15px;
   top: 60px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 80%;
@@ -83,12 +83,12 @@ h2 {
   transition: all 0.5s;
   cursor: pointer;
   position: absolute;
-  width: 90px;
+  width: 95px;
   height: 20px;
   right: 25px;
   left: 105px;
   top: 60px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 12.5px;
@@ -101,12 +101,12 @@ h2 {
   transition: all 0.5s;
   cursor: pointer;
   position: absolute;
-  width: 80px;
+  width: 70px;
   height: 20px;
   font-size: 12.5px;
-  left: 205px;
+  left: 210px;
   top: 60px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 80%;
@@ -114,7 +114,7 @@ h2 {
 }
 
 .show-works {
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -123,8 +123,8 @@ h2 {
   color: #fff;
   position: absolute;
   height: 50px;
-  width: 200px;
-  left: 10px;
+  width: 210px;
+  left: 15px;
   top: 90px;
   background: #1a2236;
   border: 1px solid #fff;
@@ -158,10 +158,10 @@ h2 {
   width: 264px;
   height: 16px;
   left: 20px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 80%;
   color: #fff;
 }
@@ -182,7 +182,7 @@ h2 {
   font-size: 12.5px;
   left: 15px;
   top: 60px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 80%;
@@ -194,13 +194,13 @@ h2 {
   transition: all 0.5s;
   cursor: pointer;
   position: absolute;
-  width: 90px;
+  width: 95px;
   height: 20px;
   font-size: 12.5px;
   right: 25px;
   left: 105px;
   top: 60px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 80%;
@@ -212,12 +212,12 @@ h2 {
   transition: all 0.5s;
   cursor: pointer;
   position: absolute;
-  width: 80px;
+  width: 70px;
   height: 20px;
   font-size: 12.5px;
-  left: 205px;
+  left: 210px;
   top: 60px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 80%;
@@ -225,7 +225,7 @@ h2 {
 }
 
 .show-works-2 {
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -234,8 +234,8 @@ h2 {
   color: #fff;
   position: absolute;
   height: 50px;
-  width: 200px;
-  left: 10px;
+  width: 210px;
+  left: 15px;
   top: 775px;
   background: #1a2236;
   border: 1px solid #fff;
@@ -258,10 +258,10 @@ h2 {
   width: 264px;
   height: 16px;
   left: 20px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 80%;
   color: #fff;
 }
@@ -293,7 +293,7 @@ h2 {
   font-size: 12.5px;
   left: 15px;
   top: 60px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 80%;
@@ -305,13 +305,13 @@ h2 {
   transition: all 0.5s;
   cursor: pointer;
   position: absolute;
-  width: 90px;
+  width: 95px;
   height: 20px;
   font-size: 12.5px;
   right: 25px;
   left: 105px;
   top: 60px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 80%;
@@ -328,7 +328,7 @@ h2 {
   font-size: 12.5px;
   left: 205px;
   top: 60px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 80%;
@@ -336,7 +336,7 @@ h2 {
 }
 
 .show-works-3 {
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -345,7 +345,7 @@ h2 {
   color: #fff;
   position: absolute;
   height: 50px;
-  width: 200px;
+  width: 210px;
   left: 15px;
   top: 1130px;
   background: #1a2236;
@@ -369,10 +369,10 @@ h2 {
   width: 264px;
   height: 16px;
   left: 20px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 80%;
   color: #fff;
 }
@@ -404,7 +404,7 @@ h2 {
   font-size: 12.5px;
   left: 15px;
   top: 60px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 80%;
@@ -416,13 +416,13 @@ h2 {
   transition: all 0.5s;
   cursor: pointer;
   position: absolute;
-  width: 90px;
+  width: 95px;
   height: 20px;
   font-size: 12.5px;
   right: 25px;
   left: 105px;
   top: 60px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 80%;
@@ -439,7 +439,7 @@ h2 {
   font-size: 12.5px;
   left: 205px;
   top: 60px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 80%;
@@ -447,7 +447,7 @@ h2 {
 }
 
 .show-works-4 {
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -456,7 +456,7 @@ h2 {
   color: #fff;
   position: absolute;
   height: 50px;
-  width: 200px;
+  width: 210px;
   left: 15px;
   top: 100px;
   background: #1a2236;
@@ -480,10 +480,10 @@ h2 {
   width: 264px;
   height: 16px;
   left: 20px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 80%;
   color: #fff;
 }
@@ -515,7 +515,7 @@ h2 {
   font-size: 12.5px;
   left: 15px;
   top: 60px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 80%;
@@ -527,13 +527,13 @@ h2 {
   transition: all 0.5s;
   cursor: pointer;
   position: absolute;
-  width: 90px;
+  width: 95px;
   height: 20px;
   font-size: 12.5px;
   right: 25px;
   left: 105px;
   top: 60px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 80%;
@@ -550,7 +550,7 @@ h2 {
   font-size: 12.5px;
   left: 205px;
   top: 60px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 80%;
@@ -558,7 +558,7 @@ h2 {
 }
 
 .show-works-5 {
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -567,7 +567,7 @@ h2 {
   color: #fff;
   position: absolute;
   height: 50px;
-  width: 200px;
+  width: 210px;
   left: 15px;
   top: 100px;
   background: #1a2236;
@@ -591,10 +591,10 @@ h2 {
   width: 264px;
   height: 16px;
   left: 20px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 80%;
   color: #fff;
 }
@@ -626,7 +626,7 @@ h2 {
   font-size: 12.5px;
   left: 15px;
   top: 60px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 80%;
@@ -638,16 +638,15 @@ h2 {
   transition: all 0.5s;
   cursor: pointer;
   position: absolute;
-  width: 90px;
+  width: 95px;
   height: 20px;
   font-size: 12.5px;
   right: 25px;
   left: 105px;
   top: 60px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 10.3334px;
   line-height: 80%;
   color: #1a2236;
 }
@@ -662,7 +661,7 @@ h2 {
   font-size: 12.5px;
   left: 205px;
   top: 60px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 80%;
@@ -670,7 +669,7 @@ h2 {
 }
 
 .show-works-6 {
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -679,8 +678,8 @@ h2 {
   color: #fff;
   position: absolute;
   height: 50px;
-  width: 200px;
-  left: 10px;
+  width: 210px;
+  left: 15px;
   top: 100px;
   background: #1a2236;
   border: 1px solid #fff;
@@ -701,7 +700,7 @@ h2 {
   height: 50px;
   left: 16px;
   top: 2400px;
-  font-family: "Playfair Display";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -715,7 +714,7 @@ p {
   height: 126px;
   left: 10px;
   top: 2400px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -734,7 +733,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -761,7 +760,7 @@ strong {
   height: 30px;
   left: 66px;
   top: 15px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 20px;
@@ -775,7 +774,7 @@ strong {
   height: 135px;
   left: 25px;
   top: 35px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -801,7 +800,7 @@ strong {
   height: 135px;
   left: 25px;
   top: 35px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -827,7 +826,7 @@ strong {
   height: 135px;
   left: 25px;
   top: 35px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -839,11 +838,7 @@ strong {
 .reference {
   font-size: 20px;
   padding: 15px;
-  font-family: "Poppins";
+  font-family: sans-serif;
   text-align: center;
   color: #fff;
 }
-
-/* stylelint-disable */
-a {}
-/* stylelint-enable */
