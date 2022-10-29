@@ -843,3 +843,7 @@ strong {
   text-align: center;
   color: #fff;
 }
+
+/* stylelint-disable */
+a {}
+/* stylelint-enable */
