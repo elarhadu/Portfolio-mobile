@@ -1,0 +1,844 @@
+.my-project {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+h1 {
+  position: absolute;
+  width: 181px;
+  height: 50px;
+  left: 16px;
+  top: 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+.project1 {
+  position: absolute;
+  width: 100%;
+  height: 210px;
+  left: 0;
+  top: 120px;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.works {
+  position: absolute;
+  width: 100%;
+  height: 156px;
+  left: 0;
+  top: 329px;
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0.5px);
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  position: absolute;
+  width: 264px;
+  height: 16px;
+  left: 20px;
+  top: 1px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 80%;
+  color: #fff;
+}
+
+.languages {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.mark-up {
+  background: #98dede;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 80px;
+  height: 20px;
+  font-size: 12.5px;
+  left: 15px;
+  top: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.react {
+  background: #98dede;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 95px;
+  height: 20px;
+  right: 25px;
+  left: 105px;
+  top: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12.5px;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.responsive {
+  background: #98dede;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 70px;
+  height: 20px;
+  font-size: 12.5px;
+  left: 210px;
+  top: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.show-works {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  height: 50px;
+  width: 210px;
+  left: 15px;
+  top: 90px;
+  background: #1a2236;
+  border: 1px solid #fff;
+  backdrop-filter: blur(0.5px);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.project2 {
+  position: absolute;
+  width: 100%;
+  height: 210px;
+  left: 0;
+  top: 484px;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.work-2 {
+  position: absolute;
+  width: 100%;
+  height: 156px;
+  left: 0;
+  top: 680px;
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0.5px);
+}
+
+.second-project {
+  position: absolute;
+  width: 264px;
+  height: 16px;
+  left: 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 80%;
+  color: #fff;
+}
+
+.languages-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.mark-up-2 {
+  background: #98dede;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 80px;
+  height: 20px;
+  font-size: 12.5px;
+  left: 15px;
+  top: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.react-2 {
+  background: #98dede;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 95px;
+  height: 20px;
+  font-size: 12.5px;
+  right: 25px;
+  left: 105px;
+  top: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.responsive-2 {
+  background: #98dede;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 70px;
+  height: 20px;
+  font-size: 12.5px;
+  left: 210px;
+  top: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.show-works-2 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  height: 50px;
+  width: 210px;
+  left: 15px;
+  top: 775px;
+  background: #1a2236;
+  border: 1px solid #fff;
+  backdrop-filter: blur(0.5px);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.project3 {
+  position: absolute;
+  width: 100%;
+  height: 210px;
+  left: 0;
+  top: 836px;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.third-project {
+  position: absolute;
+  width: 264px;
+  height: 16px;
+  left: 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 80%;
+  color: #fff;
+}
+
+.work-3 {
+  position: absolute;
+  width: 100%;
+  height: 156px;
+  left: 0;
+  top: 1030px;
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0.5px);
+}
+
+.languages-3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.mark-up-3 {
+  background: #98dede;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 80px;
+  height: 20px;
+  font-size: 12.5px;
+  left: 15px;
+  top: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.react-3 {
+  background: #98dede;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 95px;
+  height: 20px;
+  font-size: 12.5px;
+  right: 25px;
+  left: 105px;
+  top: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.responsive-3 {
+  background: #98dede;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 80px;
+  height: 20px;
+  font-size: 12.5px;
+  left: 205px;
+  top: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.show-works-3 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  height: 50px;
+  width: 210px;
+  left: 15px;
+  top: 1130px;
+  background: #1a2236;
+  border: 1px solid #fff;
+  backdrop-filter: blur(0.5px);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.project4 {
+  position: absolute;
+  width: 100%;
+  height: 210px;
+  left: 0;
+  top: 1180px;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.forth-project {
+  position: absolute;
+  width: 264px;
+  height: 16px;
+  left: 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 80%;
+  color: #fff;
+}
+
+.work-4 {
+  position: absolute;
+  width: 100%;
+  height: 156px;
+  left: 0;
+  top: 1390px;
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0.5px);
+}
+
+.languages-4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.mark-up-4 {
+  background: #98dede;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 80px;
+  height: 20px;
+  font-size: 12.5px;
+  left: 15px;
+  top: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.react-4 {
+  background: #98dede;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 95px;
+  height: 20px;
+  font-size: 12.5px;
+  right: 25px;
+  left: 105px;
+  top: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.responsive-4 {
+  background: #98dede;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 80px;
+  height: 20px;
+  font-size: 12.5px;
+  left: 205px;
+  top: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.show-works-4 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  height: 50px;
+  width: 210px;
+  left: 15px;
+  top: 100px;
+  background: #1a2236;
+  border: 1px solid #fff;
+  backdrop-filter: blur(0.5px);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.project5 {
+  position: absolute;
+  width: 100%;
+  height: 210px;
+  left: 0;
+  top: 1545px;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.fifth-project {
+  position: absolute;
+  width: 264px;
+  height: 16px;
+  left: 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 80%;
+  color: #fff;
+}
+
+.work-5 {
+  position: absolute;
+  width: 100%;
+  height: 156px;
+  left: 0;
+  top: 1750px;
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0.5px);
+}
+
+.languages-5 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.mark-up-5 {
+  background: #98dede;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 80px;
+  height: 20px;
+  font-size: 12.5px;
+  left: 15px;
+  top: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.react-5 {
+  background: #98dede;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 95px;
+  height: 20px;
+  font-size: 12.5px;
+  right: 25px;
+  left: 105px;
+  top: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.responsive-5 {
+  background: #98dede;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 80px;
+  height: 20px;
+  font-size: 12.5px;
+  left: 205px;
+  top: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.show-works-5 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  height: 50px;
+  width: 210px;
+  left: 15px;
+  top: 100px;
+  background: #1a2236;
+  border: 1px solid #fff;
+  backdrop-filter: blur(0.5px);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.project6 {
+  position: absolute;
+  width: 100%;
+  height: 210px;
+  left: 0;
+  top: 2000px;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.sixth-project {
+  position: absolute;
+  width: 264px;
+  height: 16px;
+  left: 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 80%;
+  color: #fff;
+}
+
+.work-6 {
+  position: absolute;
+  width: 100%;
+  height: 156px;
+  left: 0;
+  top: 2200px;
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0.5px);
+}
+
+.languages-6 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.mark-up-6 {
+  background: #98dede;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 80px;
+  height: 20px;
+  font-size: 12.5px;
+  left: 15px;
+  top: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.react-6 {
+  background: #98dede;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 95px;
+  height: 20px;
+  font-size: 12.5px;
+  right: 25px;
+  left: 105px;
+  top: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.responsive-6 {
+  background: #98dede;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 80px;
+  height: 20px;
+  font-size: 12.5px;
+  left: 205px;
+  top: 60px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.show-works-6 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  height: 50px;
+  width: 210px;
+  left: 15px;
+  top: 100px;
+  background: #1a2236;
+  border: 1px solid #fff;
+  backdrop-filter: blur(0.5px);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.about-me {
+  display: flex;
+  justify-items: center;
+  left: 320px;
+}
+
+.me {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 16px;
+  top: 2400px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+p {
+  position: relative;
+  width: 85%;
+  height: 126px;
+  left: 10px;
+  top: 2400px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1a2236;
+}
+
+button {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 50px;
+  left: 35px;
+  top: 2650px;
+  background: #1a2236;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.lang {
+  position: absolute;
+  width: 85%;
+  height: 300px;
+  left: 2;
+  top: 2750px;
+  background: #1c528a;
+  background-image: url(images/ic_languages_mob.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+strong {
+  position: absolute;
+  width: 116px;
+  height: 30px;
+  left: 66px;
+  top: 15px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.part-1 {
+  position: absolute;
+  width: 178px;
+  height: 135px;
+  left: 25px;
+  top: 35px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  color: #fff;
+}
+
+.fm-works {
+  position: absolute;
+  width: 85%;
+  height: 300px;
+  top: 3100px;
+  background: #e2505c;
+  background-image: url(images/frameworks.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.part-2 {
+  position: absolute;
+  width: 178px;
+  height: 135px;
+  left: 25px;
+  top: 35px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  color: #fff;
+}
+
+.talent {
+  position: absolute;
+  width: 85%;
+  height: 300px;
+  top: 3450px;
+  background: #febf52;
+  background-image: url(images/ic_skills.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.part-3 {
+  position: absolute;
+  width: 178px;
+  height: 135px;
+  left: 25px;
+  top: 35px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  color: #fff;
+}
+
+.reference {
+  font-size: 20px;
+  padding: 15px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #fff;
+}
