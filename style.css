@@ -704,6 +704,7 @@ p {
   line-height: 24px;
   text-align: center;
   color: #fff;
+  boarder: 0;
 }
 
 .lang {
