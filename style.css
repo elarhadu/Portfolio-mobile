@@ -1,4 +1,4 @@
-.my-project {
+.works {
   display: grid;
   grid-template-rows: auto auto auto auto auto auto;
   gap: 10px;
@@ -10,8 +10,8 @@ h1 {
   width: 181px;
   height: 50px;
   left: 16px;
-  top: 20px;
-  font-family: sans-serif;
+  top: 1px;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -41,96 +41,89 @@ h1 {
   flex-direction: column;
 }
 
-h2 {
+.first-project {
   position: absolute;
   width: 264px;
   height: 16px;
   left: 20px;
   top: 1px;
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
+  font-size: 20px;
   font-weight: 300;
-  font-size: 24px;
-  line-height: 80%;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
   color: #fff;
 }
 
-.languages {
+#buttons-1 li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color: #98dede;
+  margin-right: 52px;
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 23px;
+  margin-left: -36px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: grab;
   display: flex;
   justify-content: space-evenly;
-  align-items: baseline;
 }
 
-.mark-up {
-  background: #98dede;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  width: 80px;
-  height: 20px;
-  font-size: 12.5px;
-  left: 15px;
-  top: 60px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 80%;
-  color: #1a2236;
+#buttons-1 li a {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  justify-content: baseline;
 }
 
-.react {
-  background: #98dede;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  width: 95px;
-  height: 20px;
-  right: 25px;
-  left: 105px;
-  top: 60px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 12.5px;
-  line-height: 80%;
-  color: #1a2236;
+#buttons-1 li a:hover {
+  background-color: #33b5e5;
 }
 
-.responsive {
-  background: #98dede;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  width: 70px;
-  height: 20px;
-  font-size: 12.5px;
-  left: 210px;
-  top: 60px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 80%;
-  color: #1a2236;
+#buttons-1 li a:active {
+  transform: translateY(4px);
 }
 
 .show-works {
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
+  box-sizing: border-box;
   color: #fff;
   position: absolute;
   height: 50px;
-  width: 210px;
+  width: 234px;
   left: 15px;
   top: 90px;
   background: #1a2236;
   border: 1px solid #fff;
   backdrop-filter: blur(0.5px);
   transition: all 0.5s;
-  cursor: pointer;
+  cursor: grab;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.show-works:active {
+  transform: translateY(4px);
+}
+.go-1 {
+  position: relative;
+  top: -40px;
+}
+.arrow-1 {
+  left: 7px;
+  position: relative;
+  top: 14px;
 }
 
 .project2 {
@@ -158,90 +151,83 @@ h2 {
   width: 264px;
   height: 16px;
   left: 20px;
-  font-family: sans-serif;
+  top: 1px;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
-  line-height: 80%;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 0em;
+  line-height: 16px;
   color: #fff;
 }
-
-.languages-2 {
+#buttons-2 li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color: #98dede;
+  margin-right: 36px;
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 32px;
+  margin-left: -23px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: grab;
   display: flex;
   justify-content: space-evenly;
-  align-items: baseline;
 }
 
-.mark-up-2 {
-  background: #98dede;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  width: 80px;
-  height: 20px;
-  font-size: 12.5px;
-  left: 15px;
-  top: 60px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 80%;
-  color: #1a2236;
+#buttons-2 li a {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  justify-content: baseline;
 }
 
-.react-2 {
-  background: #98dede;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  width: 95px;
-  height: 20px;
-  font-size: 12.5px;
-  right: 25px;
-  left: 105px;
-  top: 60px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 80%;
-  color: #1a2236;
+#buttons-2 li a:hover {
+  background-color: #33b5e5;
 }
 
-.responsive-2 {
-  background: #98dede;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  width: 70px;
-  height: 20px;
-  font-size: 12.5px;
-  left: 210px;
-  top: 60px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 80%;
-  color: #1a2236;
+#buttons-2 li a:active {
+  transform: translateY(4px);
 }
 
 .show-works-2 {
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
+  box-sizing: border-box;
   color: #fff;
   position: absolute;
   height: 50px;
-  width: 210px;
+  width: 234px;
   left: 15px;
-  top: 775px;
+  top: 90px;
   background: #1a2236;
   border: 1px solid #fff;
   backdrop-filter: blur(0.5px);
   transition: all 0.5s;
-  cursor: pointer;
+  cursor: grab;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.show-works-2:active {
+  transform: translateY(4px);
+}
+.go-2 {
+  position: relative;
+  top: -40px;
+}
+.arrow-2 {
+  left: 7px;
+  position: relative;
+  top: 14px;
 }
 
 .project3 {
@@ -258,12 +244,49 @@ h2 {
   width: 264px;
   height: 16px;
   left: 20px;
-  font-family: sans-serif;
+  top: 1px;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
-  line-height: 80%;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 0em;
+  line-height: 16px;
   color: #fff;
+}
+
+#buttons-3 li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color: #98dede;
+  margin-right: 36px;
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 32px;
+  margin-left: -23px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: grab;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#buttons-3 li a {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  justify-content: baseline;
+}
+
+#buttons-3 li a:hover {
+  background-color: #33b5e5;
+}
+
+#buttons-3 li a:active {
+  transform: translateY(4px);
 }
 
 .work-3 {
@@ -277,82 +300,39 @@ h2 {
   backdrop-filter: blur(0.5px);
 }
 
-.languages-3 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: baseline;
-}
-
-.mark-up-3 {
-  background: #98dede;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  width: 80px;
-  height: 20px;
-  font-size: 12.5px;
-  left: 15px;
-  top: 60px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 80%;
-  color: #1a2236;
-}
-
-.react-3 {
-  background: #98dede;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  width: 95px;
-  height: 20px;
-  font-size: 12.5px;
-  right: 25px;
-  left: 105px;
-  top: 60px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 80%;
-  color: #1a2236;
-}
-
-.responsive-3 {
-  background: #98dede;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  width: 80px;
-  height: 20px;
-  font-size: 12.5px;
-  left: 205px;
-  top: 60px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 80%;
-  color: #1a2236;
-}
-
 .show-works-3 {
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
+  box-sizing: border-box;
   color: #fff;
   position: absolute;
   height: 50px;
-  width: 210px;
+  width: 234px;
   left: 15px;
-  top: 1130px;
+  top: 90px;
   background: #1a2236;
   border: 1px solid #fff;
   backdrop-filter: blur(0.5px);
   transition: all 0.5s;
-  cursor: pointer;
+  cursor: grab;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.show-works-3:active {
+  transform: translateY(4px);
+}
+.go-3 {
+  position: relative;
+  top: -40px;
+}
+.arrow-3 {
+  left: 7px;
+  position: relative;
+  top: 14px;
 }
 
 .project4 {
@@ -369,12 +349,49 @@ h2 {
   width: 264px;
   height: 16px;
   left: 20px;
-  font-family: sans-serif;
+  top: 1px;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
-  line-height: 80%;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 0em;
+  line-height: 16px;
   color: #fff;
+}
+
+#buttons-4 li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color: #98dede;
+  margin-right: 36px;
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 32px;
+  margin-left: -23px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: grab;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#buttons-4 li a {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  justify-content: baseline;
+}
+
+#buttons-4 li a:hover {
+  background-color: #33b5e5;
+}
+
+#buttons-4 li a:active {
+  transform: translateY(4px);
 }
 
 .work-4 {
@@ -388,82 +405,39 @@ h2 {
   backdrop-filter: blur(0.5px);
 }
 
-.languages-4 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: baseline;
-}
-
-.mark-up-4 {
-  background: #98dede;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  width: 80px;
-  height: 20px;
-  font-size: 12.5px;
-  left: 15px;
-  top: 60px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 80%;
-  color: #1a2236;
-}
-
-.react-4 {
-  background: #98dede;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  width: 95px;
-  height: 20px;
-  font-size: 12.5px;
-  right: 25px;
-  left: 105px;
-  top: 60px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 80%;
-  color: #1a2236;
-}
-
-.responsive-4 {
-  background: #98dede;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  width: 80px;
-  height: 20px;
-  font-size: 12.5px;
-  left: 205px;
-  top: 60px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 80%;
-  color: #1a2236;
-}
-
 .show-works-4 {
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
+  box-sizing: border-box;
   color: #fff;
   position: absolute;
   height: 50px;
-  width: 210px;
+  width: 234px;
   left: 15px;
-  top: 100px;
+  top: 90px;
   background: #1a2236;
   border: 1px solid #fff;
   backdrop-filter: blur(0.5px);
   transition: all 0.5s;
-  cursor: pointer;
+  cursor: grab;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.show-works-4:active {
+  transform: translateY(4px);
+}
+.go-4 {
+  position: relative;
+  top: -40px;
+}
+.arrow-4 {
+  left: 7px;
+  position: relative;
+  top: 14px;
 }
 
 .project5 {
@@ -480,12 +454,49 @@ h2 {
   width: 264px;
   height: 16px;
   left: 20px;
-  font-family: sans-serif;
+  top: 1px;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
-  line-height: 80%;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 0em;
+  line-height: 16px;
   color: #fff;
+}
+
+#buttons-5 li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color: #98dede;
+  margin-right: 36px;
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 32px;
+  margin-left: -23px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: grab;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#buttons-5 li a {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  justify-content: baseline;
+}
+
+#buttons-5 li a:hover {
+  background-color: #33b5e5;
+}
+
+#buttons-5 li a:active {
+  transform: translateY(4px);
 }
 
 .work-5 {
@@ -499,82 +510,40 @@ h2 {
   backdrop-filter: blur(0.5px);
 }
 
-.languages-5 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: baseline;
-}
-
-.mark-up-5 {
-  background: #98dede;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  width: 80px;
-  height: 20px;
-  font-size: 12.5px;
-  left: 15px;
-  top: 60px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 80%;
-  color: #1a2236;
-}
-
-.react-5 {
-  background: #98dede;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  width: 95px;
-  height: 20px;
-  font-size: 12.5px;
-  right: 25px;
-  left: 105px;
-  top: 60px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 80%;
-  color: #1a2236;
-}
-
-.responsive-5 {
-  background: #98dede;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  width: 80px;
-  height: 20px;
-  font-size: 12.5px;
-  left: 205px;
-  top: 60px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 80%;
-  color: #1a2236;
-}
-
 .show-works-5 {
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
+  box-sizing: border-box;
   color: #fff;
   position: absolute;
   height: 50px;
-  width: 210px;
+  width: 234px;
   left: 15px;
-  top: 100px;
+  top: 90px;
   background: #1a2236;
   border: 1px solid #fff;
   backdrop-filter: blur(0.5px);
   transition: all 0.5s;
-  cursor: pointer;
+  cursor: grab;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.show-works-5:active {
+  transform: translateY(4px);
+}
+
+.go-5 {
+  position: relative;
+  top: -40px;
+}
+.arrow-5 {
+  left: 7px;
+  position: relative;
+  top: 14px;
 }
 
 .project6 {
@@ -591,12 +560,49 @@ h2 {
   width: 264px;
   height: 16px;
   left: 20px;
-  font-family: sans-serif;
+  top: 1px;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
-  line-height: 80%;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 0em;
+  line-height: 16px;
   color: #fff;
+}
+
+#buttons-6 li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color: #98dede;
+  margin-right: 36px;
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 32px;
+  margin-left: -23px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: grab;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#buttons-6 li a {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  justify-content: baseline;
+}
+
+#buttons-6 li a:hover {
+  background-color: #33b5e5;
+}
+
+#buttons-6 li a:active {
+  transform: translateY(4px);
 }
 
 .work-6 {
@@ -610,97 +616,53 @@ h2 {
   backdrop-filter: blur(0.5px);
 }
 
-.languages-6 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: baseline;
-}
-
-.mark-up-6 {
-  background: #98dede;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  width: 80px;
-  height: 20px;
-  font-size: 12.5px;
-  left: 15px;
-  top: 60px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 80%;
-  color: #1a2236;
-}
-
-.react-6 {
-  background: #98dede;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  width: 95px;
-  height: 20px;
-  font-size: 12.5px;
-  right: 25px;
-  left: 105px;
-  top: 60px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 80%;
-  color: #1a2236;
-}
-
-.responsive-6 {
-  background: #98dede;
-  transition: all 0.5s;
-  cursor: pointer;
-  position: absolute;
-  width: 80px;
-  height: 20px;
-  font-size: 12.5px;
-  left: 205px;
-  top: 60px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 80%;
-  color: #1a2236;
-}
-
 .show-works-6 {
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
+  box-sizing: border-box;
   color: #fff;
   position: absolute;
   height: 50px;
-  width: 210px;
+  width: 234px;
   left: 15px;
-  top: 100px;
+  top: 90px;
   background: #1a2236;
   border: 1px solid #fff;
   backdrop-filter: blur(0.5px);
   transition: all 0.5s;
-  cursor: pointer;
+  cursor: grab;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.show-works-6:active {
+  transform: translateY(4px);
+}
+.go-6 {
+  position: relative;
+  top: -40px;
+}
+.arrow-6 {
+  left: 7px;
+  position: relative;
+  top: 14px;
 }
 
 .about-me {
   display: flex;
   justify-items: center;
-  left: 320px;
 }
 
 .me {
   position: absolute;
   width: 100%;
   height: 50px;
-  left: 16px;
+  left: 22px;
   top: 2400px;
-  font-family: sans-serif;
+  font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -709,31 +671,33 @@ h2 {
 }
 
 p {
-  position: relative;
+  position: absolute;
+  position: absolute;
   width: 85%;
   height: 126px;
-  left: 10px;
-  top: 2400px;
-  font-family: sans-serif;
+  left: 22px;
+  top: 2493px;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 21px;
   color: #1a2236;
+  text-align: justify;
 }
 
-button {
+.cv {
   box-sizing: border-box;
   position: absolute;
-  width: 288px;
+  width: 85%;
   height: 50px;
-  left: 35px;
+  left: 22px;
   top: 2650px;
   background: #1a2236;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -746,7 +710,7 @@ button {
   position: absolute;
   width: 85%;
   height: 300px;
-  left: 2;
+  left: 22px;
   top: 2750px;
   background: #1c528a;
   background-image: url(images/ic_languages_mob.png);
@@ -754,13 +718,13 @@ button {
   background-repeat: no-repeat;
 }
 
-strong {
+.technologies {
   position: absolute;
   width: 116px;
   height: 30px;
   left: 66px;
-  top: 15px;
-  font-family: sans-serif;
+  top: 50px;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 20px;
@@ -773,8 +737,8 @@ strong {
   width: 178px;
   height: 135px;
   left: 25px;
-  top: 35px;
-  font-family: sans-serif;
+  top: 80px;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -783,11 +747,25 @@ strong {
   color: #fff;
 }
 
+.frameworks {
+  position: absolute;
+  width: 116px;
+  height: 30px;
+  left: 66px;
+  top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
 .fm-works {
   position: absolute;
   width: 85%;
   height: 300px;
   top: 3100px;
+  left: 22px;
   background: #e2505c;
   background-image: url(images/frameworks.png);
   background-position: bottom right;
@@ -799,8 +777,8 @@ strong {
   width: 178px;
   height: 135px;
   left: 25px;
-  top: 35px;
-  font-family: sans-serif;
+  top: 80px;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -814,10 +792,24 @@ strong {
   width: 85%;
   height: 300px;
   top: 3450px;
+  left: 22px;
   background: #febf52;
   background-image: url(images/ic_skills.png);
   background-position: bottom right;
   background-repeat: no-repeat;
+}
+.skills {
+  position: absolute;
+  width: 116px;
+  height: 30px;
+  left: 66px;
+  top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
 }
 
 .part-3 {
@@ -825,8 +817,8 @@ strong {
   width: 178px;
   height: 135px;
   left: 25px;
-  top: 35px;
-  font-family: sans-serif;
+  top: 80px;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -838,7 +830,7 @@ strong {
 .reference {
   font-size: 20px;
   padding: 15px;
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   color: #fff;
 }
