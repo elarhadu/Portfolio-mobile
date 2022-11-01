@@ -835,3 +835,40 @@ p {
   text-align: center;
   color: #fff;
 }
+
+.end {
+  position: relative;
+  width: 74px;
+  height: 74.02px;
+  right: -19px;
+  top: 3846px;
+}
+
+.next-step {
+  position: absolute;
+  width: 249px;
+  height: 50px;
+  left: 16px;
+  top: 4235px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+.p {
+  position: absolute;
+  width: 288px;
+  height: 63px;
+  left: 16px;
+  top: 4305px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
