@@ -490,6 +490,7 @@ h1 {
   cursor: grab;
   display: flex;
   justify-content: space-evenly;
+  color: black;
 }
 
 #buttons-5 {
@@ -902,7 +903,7 @@ p {
   width: 350px;
   top: -85px;
   left: -7px;
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -1096,4 +1097,11 @@ label {
   list-style: none;
   top: 94px;
   position: absolute;
+}
+
+@media all and (min-width: 100%) and (max-width: 100%) {
+  body {
+    overflow-x: hidden !important;
+    width: 100vw !important;
+  }
 }
