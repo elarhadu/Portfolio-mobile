@@ -1,10 +1,3 @@
-.works {
-  display: grid;
-  grid-template-rows: auto auto auto auto auto auto;
-  gap: 10px;
-  padding: 10px;
-}
-
 h1 {
   position: absolute;
   width: 181px;
@@ -37,8 +30,10 @@ h1 {
   background: #1a2236;
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(0.5px);
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+  gap: 10px;
+  padding: 10px;
 }
 
 .first-project {
@@ -52,7 +47,7 @@ h1 {
   font-size: 20px;
   font-weight: 300;
   line-height: 16px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #fff;
 }
@@ -68,7 +63,7 @@ h1 {
   line-height: 20px;
   margin-top: 23px;
   margin-left: -36px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 300;
   cursor: grab;
@@ -76,18 +71,18 @@ h1 {
   justify-content: space-evenly;
 }
 
-#buttons-1 li a {
+.buttons-1 {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   display: flex;
   justify-content: baseline;
 }
 
-#buttons-1 li a:hover {
+.buttons-1 :hover {
   background-color: #33b5e5;
 }
 
-#buttons-1 li a:active {
+.buttons-1 :active {
   transform: translateY(4px);
 }
 
@@ -110,16 +105,19 @@ h1 {
   font-size: 32px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
 }
+
 .show-works:active {
   transform: translateY(4px);
 }
+
 .go-1 {
   position: relative;
   top: -40px;
 }
+
 .arrow-1 {
   left: 7px;
   position: relative;
@@ -157,10 +155,11 @@ h1 {
   font-weight: 300;
   font-size: 20px;
   text-align: left;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   line-height: 16px;
   color: #fff;
 }
+
 #buttons-2 li {
   float: left;
   list-style: none;
@@ -172,7 +171,7 @@ h1 {
   line-height: 20px;
   margin-top: 32px;
   margin-left: -23px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 300;
   cursor: grab;
@@ -180,18 +179,18 @@ h1 {
   justify-content: space-evenly;
 }
 
-#buttons-2 li a {
+.buttons-2 {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   display: flex;
   justify-content: baseline;
 }
 
-#buttons-2 li a:hover {
+.buttons-2 :hover {
   background-color: #33b5e5;
 }
 
-#buttons-2 li a:active {
+.buttons-2 :active {
   transform: translateY(4px);
 }
 
@@ -214,16 +213,19 @@ h1 {
   font-size: 32px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
 }
+
 .show-works-2:active {
   transform: translateY(4px);
 }
+
 .go-2 {
   position: relative;
   top: -40px;
 }
+
 .arrow-2 {
   left: 7px;
   position: relative;
@@ -250,7 +252,7 @@ h1 {
   font-weight: 300;
   font-size: 20px;
   text-align: left;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   line-height: 16px;
   color: #fff;
 }
@@ -266,7 +268,7 @@ h1 {
   line-height: 20px;
   margin-top: 32px;
   margin-left: -23px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 300;
   cursor: grab;
@@ -274,18 +276,18 @@ h1 {
   justify-content: space-evenly;
 }
 
-#buttons-3 li a {
+.buttons-3 {
   text-decoration: none;
-  color: #ffffff;
+  color: white;
   display: flex;
   justify-content: baseline;
 }
 
-#buttons-3 li a:hover {
+.buttons-3 :hover {
   background-color: #33b5e5;
 }
 
-#buttons-3 li a:active {
+.buttons-3 :active {
   transform: translateY(4px);
 }
 
@@ -319,16 +321,19 @@ h1 {
   font-size: 32px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
 }
+
 .show-works-3:active {
   transform: translateY(4px);
 }
+
 .go-3 {
   position: relative;
   top: -40px;
 }
+
 .arrow-3 {
   left: 7px;
   position: relative;
@@ -355,7 +360,7 @@ h1 {
   font-weight: 300;
   font-size: 20px;
   text-align: left;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   line-height: 16px;
   color: #fff;
 }
@@ -371,7 +376,7 @@ h1 {
   line-height: 20px;
   margin-top: 32px;
   margin-left: -23px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 300;
   cursor: grab;
@@ -379,18 +384,18 @@ h1 {
   justify-content: space-evenly;
 }
 
-#buttons-4 li a {
+.buttons-4 {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   display: flex;
   justify-content: baseline;
 }
 
-#buttons-4 li a:hover {
+.buttons-4 :hover {
   background-color: #33b5e5;
 }
 
-#buttons-4 li a:active {
+.buttons-4 :active {
   transform: translateY(4px);
 }
 
@@ -424,16 +429,19 @@ h1 {
   font-size: 32px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
 }
+
 .show-works-4:active {
   transform: translateY(4px);
 }
+
 .go-4 {
   position: relative;
   top: -40px;
 }
+
 .arrow-4 {
   left: 7px;
   position: relative;
@@ -460,7 +468,7 @@ h1 {
   font-weight: 300;
   font-size: 20px;
   text-align: left;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   line-height: 16px;
   color: #fff;
 }
@@ -476,26 +484,27 @@ h1 {
   line-height: 20px;
   margin-top: 32px;
   margin-left: -23px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 300;
   cursor: grab;
   display: flex;
   justify-content: space-evenly;
+  color: black;
 }
 
-#buttons-5 li a {
+#buttons-5 {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   display: flex;
   justify-content: baseline;
 }
 
-#buttons-5 li a:hover {
+.buttons-5 :hover {
   background-color: #33b5e5;
 }
 
-#buttons-5 li a:active {
+.buttons-5 :active {
   transform: translateY(4px);
 }
 
@@ -529,9 +538,10 @@ h1 {
   font-size: 32px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
 }
+
 .show-works-5:active {
   transform: translateY(4px);
 }
@@ -540,6 +550,7 @@ h1 {
   position: relative;
   top: -40px;
 }
+
 .arrow-5 {
   left: 7px;
   position: relative;
@@ -566,7 +577,7 @@ h1 {
   font-weight: 300;
   font-size: 20px;
   text-align: left;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   line-height: 16px;
   color: #fff;
 }
@@ -582,7 +593,7 @@ h1 {
   line-height: 20px;
   margin-top: 32px;
   margin-left: -23px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 300;
   cursor: grab;
@@ -590,18 +601,18 @@ h1 {
   justify-content: space-evenly;
 }
 
-#buttons-6 li a {
+.buttons-6 {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   display: flex;
   justify-content: baseline;
 }
 
-#buttons-6 li a:hover {
+.buttons-6:hover {
   background-color: #33b5e5;
 }
 
-#buttons-6 li a:active {
+.buttons-6:active {
   transform: translateY(4px);
 }
 
@@ -635,16 +646,19 @@ h1 {
   font-size: 32px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
 }
+
 .show-works-6:active {
   transform: translateY(4px);
 }
+
 .go-6 {
   position: relative;
   top: -40px;
 }
+
 .arrow-6 {
   left: 7px;
   position: relative;
@@ -671,7 +685,6 @@ h1 {
 }
 
 p {
-  position: absolute;
   position: absolute;
   width: 85%;
   height: 126px;
@@ -761,6 +774,7 @@ p {
   line-height: 30px;
   color: #fff;
 }
+
 .fm-works {
   position: absolute;
   width: 85%;
@@ -799,6 +813,7 @@ p {
   background-position: bottom right;
   background-repeat: no-repeat;
 }
+
 .skills {
   position: absolute;
   width: 116px;
@@ -834,4 +849,259 @@ p {
   font-family: "Poppins", sans-serif;
   text-align: center;
   color: #fff;
+}
+
+.end {
+  position: relative;
+  width: 74px;
+  height: 74.02px;
+  right: -19px;
+  top: 3793px;
+}
+
+.next-step {
+  position: absolute;
+  width: 249px;
+  height: 50px;
+  left: -4px;
+  top: 52px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+.conclusion {
+  position: absolute;
+  width: 308px;
+  height: 63px;
+  left: 3px;
+  top: 140px;
+  font-family: " Poppins ", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
+
+.follow-up {
+  position: absolute;
+  width: 288px;
+  height: 52px;
+  left: 16px;
+  top: 4138px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.form {
+  position: relative;
+  width: 350px;
+  top: -85px;
+  left: -7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  box-sizing: border-box;
+  left: 16px;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100;
+  font-family: " Poppins ", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1a2236;
+  outline: none;
+  background: none;
+  padding: 1.25rem;
+}
+
+input:hover {
+  border-color: #3b61c0;
+}
+
+input:focus {
+  border-color: #0644e1;
+}
+
+label {
+  position: absolute;
+  left: 1rem;
+  top: 0.8rem;
+  padding: 0 0.5rem;
+  color: #7d7c84;
+  cursor: text;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.your-name {
+  top: -52px;
+}
+
+.name:focus ~ .your-name,
+.name:not(:placeholder-shown).name:not(:focus) ~ .your-name {
+  top: -0.5rem;
+  font-size: 1rem;
+  left: 0.8rem;
+}
+
+.email:focus ~ .your-e-mail,
+.email:not(:placeholder-shown).email:not(:focus) ~ .your-email {
+  top: 0.3rem;
+  font-size: 0.8rem;
+  left: 0.8rem;
+}
+
+.name {
+  box-sizing: border-box;
+  position: absolute;
+  width: 114%;
+  height: 52px;
+  left: 16px;
+  top: -58px;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  padding-top: 33px;
+  padding-inline: 0.6rem;
+}
+
+.email {
+  box-sizing: border-box;
+  position: absolute;
+  width: 114%;
+  height: 52px;
+  left: 16px;
+  top: 5px;
+  border: 1px solid #1a2236;
+  border-radius: 4px;
+  font-family: " Poppins ", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  color: #7d7c84;
+  padding-top: 33px;
+  padding-inline: 0.6rem;
+}
+
+.text-area {
+  box-sizing: border-box;
+  position: absolute;
+  width: 114%;
+  height: 112px;
+  left: 16px;
+  top: 73px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  font-family: " Poppins ", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7d7c84;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+
+.submit {
+  box-sizing: border-box;
+  position: absolute;
+  width: 85%;
+  height: 50px;
+  left: 50px;
+  top: 207px;
+  background: #1a2236;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #33b5e5;
+  border-color: #3b61c0;
+}
+
+.submit:focus {
+  border-color: #0644e1;
+}
+
+.submit:active {
+  transform: translateY(4px);
+}
+
+.reach-out {
+  position: absolute;
+  width: 116%;
+  height: 174px;
+  left: 0;
+  top: 4423px;
+  background: #1a2236;
+}
+
+.resume {
+  position: absolute;
+  width: 155px;
+  height: 24px;
+  left: 32px;
+  top: 12px;
+  font-family: " Poppins ", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 24px;
+  color: #92dcdc;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.redirect {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 200px;
+  top: 54px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60%;
+  margin-left: -1.5rem;
+  margin-bottom: 24.5rem;
+  list-style: none;
+  top: 94px;
+  position: absolute;
+}
+
+@media all and (min-width: 400px) and (max-width: 100%) {
+  body {
+    overflow-x: hidden !important;
+    width: 100vw !important;
+  }
 }
